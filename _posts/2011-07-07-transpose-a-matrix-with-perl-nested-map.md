@@ -32,4 +32,3 @@ $ paste <(seq 1 5) <(seq 12 16) | perl -ane 'push @matrix,[@F]; END { print join
 
 I got the idea from this [blog post](http://www.hidemail.de/blog/perl_tutor.shtml#map_transpose_matrix), but I slightly modified it so that you don't need to make a copy of the transposed array (to save memory)
 
-Ust okuma diyor ki: Bunların hepsi boş..

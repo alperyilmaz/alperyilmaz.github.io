@@ -22,6 +22,7 @@ markdown: kramdown
 # Do not copy these files to the output directory
 exclude: ["deploy","README.md"]
 
-#gems: [jekyll-youtube, jekyll-terminal]
+gems: 
+  - jekyll-terminal
 
 #problematic gems: jekyll-terminal

@@ -28,6 +28,15 @@ Testing resposive youtube tag code: (This is definitely not responsive and ugly.
 
 {% youtube tnq2gwBhvCc %}
 
+# >_ about
+
+It would be nice to have terminal style headers
+
+# `$_ contents`
+
+Obviously, inline code style does not work if you'd like to have monotype font in header. The css might need to be modified if you desire to achieve similar header style as in [this website](https://css-tricks.com/deployment/)
+
+
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/

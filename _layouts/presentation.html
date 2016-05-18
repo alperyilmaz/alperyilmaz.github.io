@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
+    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
+    <title>{{ page.title | strip_html }}</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: 'Droid Serif';
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .remark-slide-content h1 { font-size: 3em; }
+      .remark-slide-content h2 { font-size: 2em; }
+      .remark-slide-content h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+	right: 3em;
+	left: 3em;
+	font-size: small;
+	}
+      table {
+    	width:70%; 
+    	margin-left:15%; 
+    	margin-right:15%;
+        }
+      tr:nth-child(even) {background-color: #f2f2f2}
+      th {
+    	background-color: #757575;
+    	color: white;
+	}
+      th, td {
+    	padding: 5px;
+	
+	}
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-code-line-highlighted     { background-color: #373832; }
+
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+
+/* Unfortunately, adjustable column idea didnt work, so we are generating many pull-left */
+
+      .pull-left30 {
+        float: left;
+        width: 27%;
+      }
+      .pull-right70 {
+        float: right;
+        width: 67%;
+      }
+      .pull-right70 ~ p {
+        clear: both;
+      }
+
+     .pull-left70 {
+        float: left;
+        width: 67%;
+      }
+      .pull-right30 {
+        float: right;
+        width: 27%;
+      }
+      .pull-right70 ~ p {
+        clear: both;
+      }
+
+/* custom pull code finish here */
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 1em;
+        }
+/* bigtext.js does not work as of now, so let's use css trick to achieve similar thing,
+taken from https://css-tricks.com/viewport-sized-typography/ */
+		.fittext
+		{ 
+		font-size: 36px; /* Some tweener fallback that doesn't look awful */ 
+		font-size: 6vw;  
+ }
+/* Adjustable columns: idea taken from https://github.com/gnab/remark/issues/236
+      .column:first-of-type {float:left}
+      .column:last-of-type {float:right}
+
+      .split-30 .column:first-of-type {width: 25%}
+      .split-30 .column:last-of-type {width: 65%}
+      .split-40 .column:first-of-type {width: 40%}
+      .split-40 .column:last-of-type {width: 60%}
+      .split-50 .column:first-of-type {width: 50%}
+      .split-50 .column:last-of-type {width: 50%}
+      .split-60 .column:first-of-type {width: 60%}
+      .split-60 .column:last-of-type {width: 40%}
+      .split-70 .column:first-of-type {width: 70%}
+      .split-70 .column:last-of-type {width: 30%}
+
+didnt work properly for images and had alignment issues */
+      img {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+	<textarea id="source">
+{{ page.content }}
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bigtext.js"></script>
+
+<script src="js/mermaid.min.js"></script>
+<link rel="stylesheet" href="js/mermaid.css">
+    <script>
+     remark.macros.scale = function (percentage) {
+        var url = this;
+        return '<img src="' + url + '" style="width: ' + percentage + '" />';
+        // Usage:
+        //   ![:scale 50%](image.jpg)
+	// Outputs:
+	//   <img src="image.jpg" style="width: 50%" />
+      };
+
+var slideshow = remark.create({
+  // Set the slideshow display ratio
+  // Default: '4:3'
+  // Alternatives: '16:9', ...
+  ratio: '4:3',
+
+  // Navigation options
+  navigation: {
+    // Enable or disable navigating using scroll
+    // Default: true
+    // Alternatives: false
+    scroll: true,
+
+    // Enable or disable navigation using touch
+    // Default: true
+    // Alternatives: false
+    touch: true,
+
+    // Enable or disable navigation using click
+    // Default: false
+    // Alternatives: true
+    click: false
+  },
+
+  // Customize slide number label, either using a format string..
+  slideNumberFormat: '%current% / %total%',
+  // .. or by using a format function
+  slideNumberFormat: function (current, total) {
+    return current + ' / ' + total;
+  },
+
+  // Enable or disable counting of incremental slides in the slide counting
+  countIncrementalSlides: true,
+
+  // Highlighting
+  // Alternatives: arta, ascetic, dark, default, far, github, googlecode, idea, ir_black, magula, monokai, rainbow, solarized-dark, solarized-light, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eighties, vs, zenburn.
+  // my preferences: foundation, monokai, zenburn, rainbow, github
+  highlightStyle: 'foundation',
+  highlightLanguage: 'remark',
+  highlightLines: true,
+
+}); 
+    </script>
+<script>
+// Only BigText on “new-ish” browsers
+if( 'querySelectorAll' in document ) {
+$('.bigtext').bigtext();
+}
+</script>
+
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  </body>
+</html>

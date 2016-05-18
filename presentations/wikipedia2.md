@@ -1,0 +1,158 @@
+---
+layout: presentation
+title: Default Presentation
+permalink: /presentations/wikipedia2
+---
+
+class: center, middle
+
+.fittext[
+Wikipedia Assignment       
+]
+
+## Virology Gr.2
+---
+class: center
+# Update Wikipedia with:
+
+## what you learned
+## what you wished to learn
+## questions asked in class
+
+---
+class: center
+# Wikipedia pages to update
+## Pick a family or a virus we discussed in class
+<br />
+
+|Family|Virus|
+|------|-----|
+|.red[Herpesviruses (not available for edit)]||
+|Parvoviruses|B19 virus|
+|Reoviruses|Rotavirus|
+|Picornaviruses||
+|Rhabdoviruses|Rabies virus|
+
+---
+class: center
+# Flow
+
+Please don't break the flow in existing page
+<br />
+.pull-left70[
+![:scale 80%](Selection_249.png)
+]
+.pull-right30[
+.middle[![:scale 50%](cross.png)]
+]
+---
+class: center, middle
+.fittext[
+You're expected to
+extend the existing information
+]
+---
+class: center
+# How to extend information
+
+.pull-left[
+![:scale 70%](Selection_251.png)
+]
+.pull-right[
+## This is okay unless it is copy/pasted
+]
+---
+class: center
+# How to extend information - 2
+
+.pull-left[
+![:scale 70%](Selection_252.png)
+]
+.pull-right[
+## This is MUCH BETTER
+
+## The text can be from an abstract of an article
+]
+---
+class: center
+# References
+
+Please check if the reference you'd like to use is already used. If so, then use existing reference code.
+
+.pull-left70[
+![Default-aligned image](Selection_250.png)
+]
+.pull-right30[
+![:scale 50%](cross.png)
+]
+
+
+---
+class: center
+
+![:scale 80%](Selection_250.png)
+
+
+.footnote[
+.red[1,5,7,8]: Repeating citation, .red[2]: Article reference should be including author, title, etc. information, not a link or URL, .red[3]: Please include edition and page numbers in book references.red[*], .red[4,6]: Technical errors in citations
+
+.red[*]: By the way, did anybody read the course text book?
+]
+---
+class: center
+# Word limit
+
+## 150 words (~ 1000 characters)
+
+## Don't hesitate to modify content from other students, everybody's modification is kept in history
+---
+class: center
+# When done
+
+## Fill in the Google Forms located at:
+
+## http://goo.gl/forms/v62i00ahtS
+
+### (double zeros in the middle)
+---
+class:center
+
+![:scale 80%](Selection_254.png)
+---
+class:center
+
+![:scale 80%](Selection_255.png)
+---
+class: center
+# Grading
+
+<br />
+.center[
+
+|Item|Points|
+|----|------|
+|Word Limit| 2 |
+|References| 2 |
+|Flow| 2 |
+|Extension| 2 |
+|Copy/Pasted Block| -3 |
+|Relevance to course| 2 |
+
+]
+
+---
+
+# This is test slide
+
+## This is h2
+
+### this is h3
+
+
+.center[
+![normal image](cross.png)
+]
+
+Please check [EC-PDB](http://www.ebi.ac.uk/thornton-srv/databases/enzymes/)
+
+

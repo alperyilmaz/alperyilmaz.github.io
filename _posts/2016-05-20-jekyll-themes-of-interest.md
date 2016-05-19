@@ -22,6 +22,9 @@ http://bloginn-jekyll.justgoodthemes.com/
 
 http://dongchuan.github.io/
 
+http://biomadeira.github.io/jasper/
+
+http://phlow.github.io/feeling-responsive/
 
 
 Not sure if this one has a downloadable theme: https://mademistakes.com/articles/jekyll-style-guide/

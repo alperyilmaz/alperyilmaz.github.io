@@ -17,7 +17,7 @@ twitter_username: alperyilmaz
 github_username:  alperyilmaz
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 
 #kramdown:
 #  input: GFM

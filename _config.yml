@@ -17,7 +17,10 @@ twitter_username: alperyilmaz
 github_username:  alperyilmaz
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
+#kramdown:
+#  input: GFM
 
 # Do not copy these files to the output directory
 exclude: ["deploy","README.md"]

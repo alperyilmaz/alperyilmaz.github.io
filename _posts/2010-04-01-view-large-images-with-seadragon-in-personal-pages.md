@@ -1,15 +1,14 @@
 ---
-title: view large images with Seadragon in personal pages
-date: 2010-04-01 03:50:00 Z
-permalink: "/2010/04/01/view-large-images-with-seadragon-in-personal-pages/"
-categories:
-- visualization
 id: 64
+title: view large images with Seadragon in personal pages
+date: 2010-04-01T03:50:00+00:00
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=64
+permalink: /2010/04/01/view-large-images-with-seadragon-in-personal-pages/
+categories:
+  - visualization
 ---
-
 Maybe you already watched the video regarding Seadragon given at TED (sorry only low resolution version was available)
 
 {% youtube PKwTurQgiak %}

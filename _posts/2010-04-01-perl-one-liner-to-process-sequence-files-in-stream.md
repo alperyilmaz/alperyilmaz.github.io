@@ -1,17 +1,16 @@
 ---
-title: perl one-liner to process sequence files in stream
-date: 2010-04-01 02:43:57 Z
-permalink: "/2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/"
-categories:
-- bioinformatics
-- one-liner
-- perl
 id: 63
+title: perl one-liner to process sequence files in stream
+date: 2010-04-01T02:43:57+00:00
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=63
+permalink: /2010/04/01/perl-one-liner-to-process-sequence-files-in-stream/
+categories:
+  - bioinformatics
+  - one-liner
+  - perl
 ---
-
 Need a practical way to process fasta files with Bio::SeqIO module ? Below code will print sequence id and sequence length with tab per line.
 
 ```

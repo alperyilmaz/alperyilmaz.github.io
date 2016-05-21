@@ -6,6 +6,3 @@ id: 2
 layout: page
 ---
 
-# Spring 2016
-
-## Virology Gr.1

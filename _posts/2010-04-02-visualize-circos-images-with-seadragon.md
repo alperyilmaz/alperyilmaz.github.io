@@ -1,15 +1,16 @@
 ---
-id: 74
 title: visualize Circos images with Seadragon
-date: 2010-04-02T16:34:41+00:00
+date: 2010-04-02 16:34:41 Z
+permalink: "/2010/04/02/visualize-circos-images-with-seadragon/"
+categories:
+- bioinformatics
+- visualization
+id: 74
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=74
-permalink: /2010/04/02/visualize-circos-images-with-seadragon/
-categories:
-  - bioinformatics
-  - visualization
 ---
+
 [Circos](http://mkweb.bcgsc.ca/circos/) is a very powerful tool to visualize different types of data (expression, homology, etc) in circular fashion.
    
 The software is capable of producing very large images if desired, suitable for posters. 

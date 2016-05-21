@@ -1,11 +1,11 @@
 ---
+title: About
+date: 2009-12-20 07:29:05 Z
+permalink: "/about/"
 id: 2
 layout: page
-title: About
-date: 2009-12-20T07:29:05+00:00
 author: admin
 guid: http://alperyilmaz.org/blog/?page_id=2
-permalink: /about/
 ---
 
 I am an Assist. Prof. in bioinformatics field who is fascinated with power of linux shell. In this blog I'm sharing information, tricks and tips related to bioinformatics, perl scripting and linux shell as I come across and learn.. Thanks for watching ..

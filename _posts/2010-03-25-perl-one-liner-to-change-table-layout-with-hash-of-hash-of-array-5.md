@@ -1,15 +1,16 @@
 ---
-id: 59
 title: perl one-liner to change table layout with Hash-of-Hash-of-Array
-date: 2010-03-25T01:42:53+00:00
+date: 2010-03-25 01:42:53 Z
+permalink: "/2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array-5/"
+categories:
+- one-liner
+- perl
+id: 59
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=59
-permalink: /2010/03/25/perl-one-liner-to-change-table-layout-with-hash-of-hash-of-array-5/
-categories:
-  - one-liner
-  - perl
 ---
+
 I really like one-liners which can do a lot in a single line.. I wanted to share one I just used to arrange a big table.
   
 In the list of proteins below, only two proteins are shown, one protein has multiple attributes for 4 categories (InterPro, Cellular Component, Biological Process and Molecular Function). The other thing to notice is that, not all proteins have to have all the attributes, for instance, one protein might miss BiologicalProcess attribute.

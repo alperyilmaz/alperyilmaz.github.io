@@ -1,16 +1,17 @@
 ---
-id: 36
 title: wppost markup test
-date: 2010-01-13T03:14:33+00:00
+date: 2010-01-13 03:14:33 Z
+permalink: "/2010/01/13/wppost-markup-test-5/"
+categories:
+- blogging
+- linux
+- perl
+id: 36
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=36
-permalink: /2010/01/13/wppost-markup-test-5/
-categories:
-  - blogging
-  - linux
-  - perl
 ---
+
 It's great that wppost supports html markup in blog posting. For example I can type in **bold** or I can generate URL links like [link](http://alperyilmaz.org).
   
 Plus I can do syntax highlighting via [WP-Codebox](http://www.ericbess.com/ericblog/2008/03/03/wp-codebox/)

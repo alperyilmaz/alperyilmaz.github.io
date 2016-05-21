@@ -1,16 +1,17 @@
 ---
-id: 108
 title: extract upstream region sequence with bedtools
-date: 2011-03-06T08:40:36+00:00
+date: 2011-03-06 08:40:36 Z
+permalink: "/2011/03/06/extract-upstream-region-sequence-with-bedtools/"
+categories:
+- bioinformatics
+- one-liner
+- perl
+id: 108
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=108
-permalink: /2011/03/06/extract-upstream-region-sequence-with-bedtools/
-categories:
-  - bioinformatics
-  - one-liner
-  - perl
 ---
+
 Soon after SAM/BAM format became standard for short-read alignment softwares, high caliber tools have been emerging that can process the widely accepted format. [bedtools](http://code.google.com/p/bedtools/) is one of them and it's easy to use and flexible. Most importantly you can integrate it with commandline pipes.
 
 In this post, I'll be describing how to extract upstream region sequences with the help of bedtools. I'll be using the following files in my sample:

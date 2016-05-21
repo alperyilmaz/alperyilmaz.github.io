@@ -1,15 +1,16 @@
 ---
-id: 60
 title: top ten occurrences with perl one-liner
-date: 2010-03-30T13:56:19+00:00
+date: 2010-03-30 13:56:19 Z
+permalink: "/2010/03/30/top-ten-occurrences-with-perl-one-liner/"
+categories:
+- one-liner
+- perl
+id: 60
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=60
-permalink: /2010/03/30/top-ten-occurrences-with-perl-one-liner/
-categories:
-  - one-liner
-  - perl
 ---
+
 Very nice perl one-liner using map, sort and array range to show top ten occurrences
 
 Taken from [Tech@Sakana blog](http://www.sakana.fr/blog/2010/03/02/perl-counting-occurences-of-ip-addresses-in-apache-logs/)

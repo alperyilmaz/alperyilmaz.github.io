@@ -1,16 +1,17 @@
 ---
-id: 92
 title: perl one-liner to pick random sequences from fasta file
-date: 2010-07-15T08:03:53+00:00
+date: 2010-07-15 08:03:53 Z
+permalink: "/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/"
+categories:
+- bioinformatics
+- one-liner
+- perl
+id: 92
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/
-permalink: /2010/07/15/perl-one-liner-to-pick-random-sequences-from-fasta-file/
-categories:
-  - bioinformatics
-  - one-liner
-  - perl
 ---
+
 In an earlier [post]({% post_url 2010-04-01-perl-one-liner-to-process-sequence-files-in-stream %}) we learned how to use Bio::SeqIO module to process fasta files with one-liner. Let's do more with this capability. What about selecting random sequences from a fasta file?
   
 To achieve that, we'll load the fasta file contents into a hash and then utilize the fact that `rand(@array)` returns index of a random element from that array.

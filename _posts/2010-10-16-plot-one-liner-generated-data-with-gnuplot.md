@@ -1,17 +1,18 @@
 ---
-id: 99
 title: plot one-liner generated data with gnuplot
-date: 2010-10-16T22:13:24+00:00
+date: 2010-10-16 22:13:24 Z
+permalink: "/2010/10/16/plot-one-liner-generated-data-with-gnuplot/"
+categories:
+- command-line
+- gnuplot
+- one-liner
+- visualization
+id: 99
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/2010/10/16/plot-one-liner-generated-data-with-gnuplot/
-permalink: /2010/10/16/plot-one-liner-generated-data-with-gnuplot/
-categories:
-  - command-line
-  - gnuplot
-  - one-liner
-  - visualization
 ---
+
 In this post, I'll demonstrate how to use gnuplot in a one-liner. We'll use the pipe but unfortunately you cannot pipe raw data to gnuplot directly (as far as I know). The piped data should contain basic gnuplot commands on top. So, we'll use the following template:
 
 ```

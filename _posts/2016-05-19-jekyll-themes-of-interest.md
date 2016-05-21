@@ -1,9 +1,9 @@
 ---
+title: Jekyll themes I want to try
+date: 2016-05-19 22:10:57 Z
+categories:
+- jekyll
 layout: post
-title: "Jekyll themes I want to try"
-date: "2016-05-20 01:10:57 +0300"
-categories: jekyll
-published: true
 ---
 
 After going thru a [long list of themes](https://github.com/jekyll/jekyll/wiki/Themes), the following themes have some or all capabilities I'd like to have in a theme:

@@ -1,16 +1,17 @@
 ---
-id: 120
 title: transpose a matrix with perl nested map
-date: 2011-07-07T09:33:37+00:00
+date: 2011-07-07 09:33:37 Z
+permalink: "/2011/07/07/transpose-a-matrix-with-perl-nested-map/"
+categories:
+- command-line
+- one-liner
+- perl
+id: 120
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=120
-permalink: /2011/07/07/transpose-a-matrix-with-perl-nested-map/
-categories:
-  - command-line
-  - one-liner
-  - perl
 ---
+
 Here's the matrix that we'll be using:
 
 {% terminal %}

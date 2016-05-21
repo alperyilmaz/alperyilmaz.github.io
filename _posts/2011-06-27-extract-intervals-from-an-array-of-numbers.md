@@ -1,16 +1,17 @@
 ---
-id: 115
 title: extract intervals from an array of numbers
-date: 2011-06-27T06:58:02+00:00
+date: 2011-06-27 06:58:02 Z
+permalink: "/2011/06/27/extract-intervals-from-an-array-of-numbers/"
+categories:
+- command-line
+- one-liner
+- perl
+id: 115
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=115
-permalink: /2011/06/27/extract-intervals-from-an-array-of-numbers/
-categories:
-  - command-line
-  - one-liner
-  - perl
 ---
+
 Let's assume you have an array of numbers and you want to extract intervals from this array. For example, from such an array: 2,3,4,5,8,9,10,11,12,15,18,19,20 you should be getting (2-5), (8-12), (18-20) as intervals.
 
 More bioinformatic case: Let's assume you ran samtools pileup format and want to extract intervals from the genomic coordinates that has at least one hit.

@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Table test
-date: 2016-05-19T07:29:05+00:00
-permalink: /table-test/
+date: 2016-05-19 07:29:05 Z
+permalink: "/table-test/"
+layout: page
 ---
 
 <style>

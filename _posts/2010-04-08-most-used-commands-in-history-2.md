@@ -1,16 +1,17 @@
 ---
-id: 77
 title: Most used commands in history
-date: 2010-04-08T09:11:53+00:00
+date: 2010-04-08 09:11:53 Z
+permalink: "/2010/04/08/most-used-commands-in-history-2/"
+categories:
+- linux
+- one-liner
+- perl
+id: 77
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=77
-permalink: /2010/04/08/most-used-commands-in-history-2/
-categories:
-  - linux
-  - one-liner
-  - perl
 ---
+
 Most of the "most used commands" approaches does not consider pipes and other complexities.
   
 This approach considers pipes, process substitution by backticks or `$()` and multiple commands separated by `;`

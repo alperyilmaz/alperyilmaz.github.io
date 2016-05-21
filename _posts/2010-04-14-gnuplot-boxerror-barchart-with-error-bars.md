@@ -1,15 +1,16 @@
 ---
-id: 80
 title: gnuplot boxerror, barchart with error bars
-date: 2010-04-14T14:31:26+00:00
+date: 2010-04-14 14:31:26 Z
+permalink: "/2010/04/14/gnuplot-boxerror-barchart-with-error-bars/"
+categories:
+- gnuplot
+- visualization
+id: 80
 author: admin
 layout: post
 guid: http://alperyilmaz.org/blog/?p=80
-permalink: /2010/04/14/gnuplot-boxerror-barchart-with-error-bars/
-categories:
-  - gnuplot
-  - visualization
 ---
+
 When I was trying to generate an image containing scatter-plot and a barchart with error bars, I got stuck with barchart part. There were no demos or samples that produces the desired output. So, I ended up figuring it out myself.
   
 Below is the gnuplot code, data sample and the output.

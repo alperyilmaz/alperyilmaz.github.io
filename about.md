@@ -8,7 +8,7 @@ guid: http://alperyilmaz.org/blog/?page_id=2
 permalink: /about/
 ---
 
-I am an Assist. Prof. in bioinformatics field who is fascinated with power of linux command line. In this blog I'm sharing information, tricks and tips related to bioinformatics, perl scripting and linux shell as I come across and learn.. Thanks for watching ..
+I am an Assist. Prof. in bioinformatics field who is fascinated with power of linux command line. In this blog I'm sharing information, tricks and tips related to bioinformatics, perl scripting and linux command line as I come across and learn.. Thanks for watching ..
 
 You can find the source code for this website at:
 {% include icon-github.html username="alperyilmaz" %} /

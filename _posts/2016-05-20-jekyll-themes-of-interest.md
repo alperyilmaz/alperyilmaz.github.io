@@ -8,25 +8,24 @@ published: true
 
 After going thru a [long list of themes](https://github.com/jekyll/jekyll/wiki/Themes), the following themes have some or all capabilities I'd like to have in a theme:
 
-http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/
+<http://www.hossainmohdfaysal.com/hmfaysal-omega-theme/>
 
-https://github.com/holman/left might not be as pretty as https://zachholman.com/
+<https://github.com/holman/left> might not be as pretty as <https://zachholman.com/>
 
-http://chrisanthropic.github.io/slim-pickins-jekyll-theme/
+<http://chrisanthropic.github.io/slim-pickins-jekyll-theme/>
 
-https://rohanchandra.github.io/type-theme/
+<https://rohanchandra.github.io/type-theme/>
 
-http://aronbordin.com/neo-hpstr-jekyll-theme/
+<http://aronbordin.com/neo-hpstr-jekyll-theme/>
 
-http://bloginn-jekyll.justgoodthemes.com/
+<http://bloginn-jekyll.justgoodthemes.com/>
 
-http://dongchuan.github.io/
+<http://dongchuan.github.io/>
 
-http://biomadeira.github.io/jasper/
+<http://biomadeira.github.io/jasper/>
 
-http://phlow.github.io/feeling-responsive/
+<http://phlow.github.io/feeling-responsive/>
 
+Not sure if this one has a downloadable theme: <https://mademistakes.com/articles/jekyll-style-guide/>
 
-Not sure if this one has a downloadable theme: https://mademistakes.com/articles/jekyll-style-guide/
-
-Highly modified theme: http://willkoehler.net/2014/08/26/save-50-hours-setting-up-your-jekyll-blog.html
+Highly modified theme: <http://willkoehler.net/2014/08/26/save-50-hours-setting-up-your-jekyll-blog.html>

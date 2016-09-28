@@ -25,6 +25,8 @@ markdown: kramdown
 # Do not copy these files to the output directory
 exclude: ["deploy","README.md"]
 
+permalink: /:year/:month/:day/:title/
+
 gems: 
   - jekyll-terminal
 

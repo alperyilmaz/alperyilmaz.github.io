@@ -11,7 +11,7 @@ After starting to use the bash, you quickly realize bash history is an invaluabl
 0 13 3,11,24 * *   /bin/cat ~/.bash_history > ~/.history_backup_`date +\%Y\%m\%d`
 ```
 
-This cron job line means: on 3rd, 11th adn 24th of each month at 1pm dump contents of `.bash_history` file to history backup file. By time, I ended up with 1-2 files per month.
+This cron job line means: on 3rd, 11th and 24th of each month at 1pm dump contents of `.bash_history` file to history backup file. By time, I ended up with 1-2 files per month.
 
 Second part is couple bash functions to merge the archive.
 

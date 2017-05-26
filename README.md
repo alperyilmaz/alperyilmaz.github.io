@@ -2,4 +2,4 @@
 
 # Personal Website and Blog
 
-The contents are build by Travis and deployed to AWS S3.. The website is reachable at [alperyilmaz.org](alperyilmaz.org).
+The contents are build by Travis and deployed to AWS S3.. The website is reachable at [alperyilmaz.site](alperyilmaz.site).

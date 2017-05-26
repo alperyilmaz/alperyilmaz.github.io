@@ -30,3 +30,5 @@ Finally, I got a good idea from [this blog](https://spin.atomicobject.com/2016/0
 ```bash
 export PROMPT_COMMAND='history -a; history -n; if [ "$(id -u)" -ne 0 ]; then echo -e "$(date "+%Y-%m-%d.%H:%M:%S")\t$(hostname)\t$(pwd)\t$(history -p \!-1)" >> ~/.logs/bash-history-$(hostname)-$(date "+%Y-%m-%d").log; fi'
 ```
+
+> **Update (2017-05-26):** This code causes problem with `screen`. Within `screen` the command is not printed out and written correctly into bash-history file.
